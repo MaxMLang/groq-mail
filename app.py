@@ -12,7 +12,7 @@ api_key = st.secrets["GROQ_API_KEY"]
 client = Client(api_key=api_key)
 
 # Set model names
-conversational_model = "llama-3.1-70b-versatile"
+conversational_model = "llama-3.1-8b-instant"
 safety_model = "llama-guard-3-8b"
 
 # Sidebar for navigation
